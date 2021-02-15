@@ -1,0 +1,94 @@
+nav {
+	text-align: center;
+}
+
+a.button-page {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: inline-block;
+	margin: 5px auto;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 2px 5px;
+	color: rgba(255, 255, 255, 0.85);
+	background-color: #27aae1;
+}
+
+a.button-page:hover {
+	color: rgba(30, 22, 54, 0.6);
+	background-color: skyblue;
+}
+
+.btn-primary-comments {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	background: #27aae1;
+	padding: 2px 10px;
+	border: none;
+	font-size: 12px;
+	border-radius: 4px;
+	color: #fff;
+	position: relative;
+	/* font-weight: 400; */
+	outline: none;
+	border-radius: 30px;
+	float: right; 
+}
+
+.btn-primary-comments:hover {
+	color: rgba(30, 22, 54, 0.6);
+	background-color: skyblue;
+}
+
+.btn-primary-post {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: inline-block;
+	margin: 5px auto;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px 15px;
+	color: rgba(255, 255, 255, 0.85);
+	background-color: #27aae1;
+	font-size: 20dp;
+}
+
+.btn-primary-post:hover {
+	background: #149AC9;
+	transition: all 1s;
+}
+
+.create-post {
+	width: 100%;
+	min-height: 50xp;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #f1f2f2;
+}
+
+.create-post .form-group {
+	margin-bottom: 0;
+	display: inline-flex;
+}
+
+.create-post .form-group .form-control-add {
+	border: 1px solid #ccc;
+	height: 5em;
+	min-width: fit-content;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	margin: 10px;
+}
+
+.comCon {
+	word-break: break-word;
+}
+
